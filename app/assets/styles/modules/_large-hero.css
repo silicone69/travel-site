@@ -1,0 +1,17 @@
+.large-hero {
+	display: grid;
+	grid-template-columns: 1fr;
+	place-items: center;
+
+	&__text-content {
+		width: 100%;
+		text-align: center;
+		grid-column: 1;
+		grid-row: 1;
+	}
+	&__image {
+		display: block;
+		grid-column: 1;
+		grid-row: 1;
+	}
+}
